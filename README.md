@@ -13,10 +13,10 @@ The Web Scraping technique is based on certain basic steps. We may note first th
 So, the main needed components are:  the web spider or web crawler which is used in order to access and navigate a website (this program can go through all the links included in this website. It starts with the seed URL and then finish with all the others that are connected with it). Second, we need an HTML parser that allows us to study the HTML code of the website. This program can identify all the components (head, body, div, table..), organize them in a hierarchy tree structure (Document Object Model DOM), and then based on the user’s request, identify the needed part. Next, we need to extract it, but the tool used here depends on the type of data. It can be for example text, table, or graph extraction. Lastly, a data visualization tool (Matplotlib..) or simply a data-saving program should be used. 	 	 						
 This technique can be very useful as it gives access to a large amount of data in a short period of time. However, I believe that we have always to be careful concerning copyrights. Collecting data is not allowed if you don’t respect its writer/source. 	
 
-			
+
 
 ## II. An overview of the main existing solutions. 
-During this project, I will be using Python, which is a coding language that has a lot of libraries that help with web scraping.  We can note: 
+During this project, I will be using Python, which is a coding language that has a lot of libraries that help with web scraping.  Here I provide some examples: : 
 
 \- **Requests:** It’s a tool that I can use in order to make HTTP requests, such as Get request which will allow me to get the website content
 
@@ -30,8 +30,22 @@ lxml: A very fast library used also for HTML or XML parsing
 \- **html5lib:** it’s a tool that can accurately parse a website, and works even with malformatted HTML 
 
 \- **Advertools:**  can be used for analyzing and extracting data for marketing purposes (data can be for example from facebook/Twitter/Google ads)
+
+Those are the main solutions that I can use while coding with Python. It’s important to note here that there are other options that users with no IT background can use such as the services Webose.io or Parsehub, and browser extensions like Scraper or Data Miner. 
+
+### Advantages & limits: 
+
+The existing solutions mentioned above have a lot of **advantages** that we can mention. 
+
+These tools are time effective as it allows us to collect a large amount of data in a short period of time. Being able to implement such a technique can help you save time for your research phase. Also, it makes you gain a competitive advantage as today’s world is indeed about data, the more you collect, the more powerful you are.
+
+Web scraping programs or services are also not that hard to use and generally user-friendly, one can always choose the method/tool that matches his skills. They can be adapted to one’s needs and freely scaled. 
+
+Despite all that, web scrapers has also some **limitations**. For example, browser services and extensions have standard forms which cannot meet specific users’ needs. On the other hand, coding languages cannot differentiate between relevant and non-relevant data, it’s the users’ task to pay attention to the quality of the data to be extracted. Users need also to put extra effort into highly dynamic websites which can sometimes lead to un-updated or inaccurate data extraction.
+
+Last but not least, it’s important to mention the problem related to websites that do not guarantee permission for web scraping. The concern of copyrights should always be taken into consideration. That’s why one has to get the website’s permission or work only with public data.
 		 	 	 		
-## III. A High-Level Design for the proposed solution: 
+## III. A Design for the proposed solution: 
 In the past few years, Tunisia has been suffering from a hard economic situation. During my previous internships, and in my finance and micro-economic classes, I had the opportunity to discuss how crucial this issue is. Thus, I will take advantage of this project in order to go further with this topic. 
 During my project, I will be developing a Python code that permits us to extract economic indexes from reliable sources, and visualize and analyze them. Those indexes can help me understand better our economy and get insights about today’s situation. 
 
