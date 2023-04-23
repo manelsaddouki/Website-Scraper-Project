@@ -1,4 +1,4 @@
-# Project_Security
+# Website Scraper Project (Manel Saddouki) 
 
 ## I. Explanation of the main concepts of the Web Scraper: main components, functional flow... 
  							
