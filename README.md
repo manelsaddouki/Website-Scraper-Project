@@ -17,13 +17,19 @@ This technique can be very useful as it gives access to a large amount of data i
 
 ## II. An overview of the main existing solutions. 
 During this project, I will be using Python, which is a coding language that has a lot of libraries that help with web scraping.  We can note: 
-Requests: It’s a tool that I can use in order to make HTTP requests, such as Get request which will allow me to get the website content 
-BeautifulSoup: It is a library that can be used to parse the web page, and identify its elements. It can work with HTML or XML
-Scrapy: it’s also a library that’s used for web crawling. It can be more powerful than BeautifulSoup if we need a large amount of data (from numerous web pages). Also, it’s able to handle cookies and sessions. 
-Selenium: It is also another existing solution for scraping. It is useful if we need to interact automatically with a web browser.
+
+\- **Requests:** It’s a tool that I can use in order to make HTTP requests, such as Get request which will allow me to get the website content
+
+\- **BeautifulSoup:** It is a library that can be used to parse the web page, and identify its elements. It can work with HTML or XML
+
+\- **Scrapy:** it’s also a library that’s used for web crawling. It can be more powerful than BeautifulSoup if we need a large amount of data (from numerous web pages). Also, it’s able to handle cookies and sessions. 
+
+\- **Selenium:** It is also another existing solution for scraping. It is useful if we need to interact automatically with a web browser.
 lxml: A very fast library used also for HTML or XML parsing
-html5lib: it’s a tool that can accurately parse a website, and works even with malformatted HTML 
-Advertools:  can be used for analyzing and extracting data for marketing purposes (data can be for example from facebook/Twitter/Google ads)
+
+\- **html5lib:** it’s a tool that can accurately parse a website, and works even with malformatted HTML 
+
+\- **Advertools:**  can be used for analyzing and extracting data for marketing purposes (data can be for example from facebook/Twitter/Google ads)
 		 	 	 		
 ## III. A High-Level Design for the proposed solution: 
 In the past few years, Tunisia has been suffering from a hard economic situation. During my previous internships, and in my finance and micro-economic classes, I had the opportunity to discuss how crucial this issue is. Thus, I will take advantage of this project in order to go further with this topic. 
