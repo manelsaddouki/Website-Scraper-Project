@@ -67,7 +67,7 @@ During my project, I will be developing a Python code that permits us to extract
 
 ### Design and components: 
 
-\-The first step is **websites identification**: 
+ 1. The first step is **websites identification**: 
 
      * BCT (Central Bank of Tunisia) website for PIB 
      
@@ -75,15 +75,15 @@ During my project, I will be developing a Python code that permits us to extract
 
    Those are examples of the websites that contain the data I will need to extract 
 
-\-The second step is **website crawling**: I will send a request to access the contents of the web pages
+ 2. The second step is **website crawling**: I will send a request to access the contents of the web pages
 
-\-The Third step is the **HTML parser** that will give me the structure of the websites (based on the HTML codes’ elements) 
+ 3. The Third step is the **HTML parser** that will give me the structure of the websites (based on the HTML codes’ elements) 
 
-\-The fourth step is **data extraction**: for the tables for example I will go use a function to go through all existing tables, identify  the necessary columns/rows, and then get all the data I need 
+ 4. The fourth step is **data extraction**: for the tables for example I will go use a function to go through all existing tables, identify  the necessary columns/rows, and then get all the data I need 
 
-\-The fifth step is **data manipulation**: I will manipulate the collected data and convert them into a useful version (for example use iloc() to get the part I need or reset_index() to manipulate my tables’ indexes)
+ 5. The fifth step is **data manipulation**: I will manipulate the collected data and convert them into a useful version (for example use iloc() to get the part I need or reset_index() to manipulate my tables’ indexes)
 
-\-The sixth and last version is **data visualization**: I will plot graphs that will help me with the economic analysis (the graphs will be line/bars/Pie chart..)
+ 6. The sixth and last version is **data visualization**: I will plot graphs that will help me with the economic analysis (the graphs will be line/bars/Pie chart..)
 
 
 This project is based on a combination of inputs (various data from various sources), and my analysis will be based on those inputs. For each step during the development phases, I will be using specific Python libraries. 
@@ -107,13 +107,13 @@ I did choose to work with these tools as I am used to working with some of them 
 
 ### The development phases: 
 
-\-**Idealization and planning**: All the parts mentioned above summarize this phase. During this period, I selected the project I will work on, the topic I will analyze, the tools I will use, and the functional flow I will go through.
+ 1. **Idealization and planning**: All the parts mentioned above summarize this phase. During this period, I selected the project I will work on, the topic I will analyze, the tools I will use, and the functional flow I will go through.
 
-\-**Web scraping code development**: During this phase, I develop Python code that uses libraries to read the websites’ content, and extract data. The data will be saved for example in the pandas dataframe for future use
+ 2. **Web scraping code development**: During this phase, I develop Python code that uses libraries to read the websites’ content, and extract data. The data will be saved for example in the pandas dataframe for future use
 
-\-**Data visualizing code development**: My second part of the code will be to develop plot graphs that can help me in my analysis. These plots are line/ bars/ pie charts.. For instance, PIB and Unemployment indexes will be visualized in a way we can get the necessary insights. 
+ 3. **Data visualizing code development**: My second part of the code will be to develop plot graphs that can help me in my analysis. These plots are line/ bars/ pie charts.. For instance, PIB and Unemployment indexes will be visualized in a way we can get the necessary insights. 
 
-\-**Data Analysis**: During this part, a clear analysis will be done based on the data and graphs we presented. This step will permit us to present an economic report about our country. 
+ 4. **Data Analysis**: During this part, a clear analysis will be done based on the data and graphs we presented. This step will permit us to present an economic report about our country. 
 
 This code can be used for academic researchers who work on socio-economic-related topics. It also serves non-government organizations such as OECD for policy recommendations. 
 
