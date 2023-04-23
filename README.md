@@ -56,11 +56,11 @@ During my project, I will be developing a Python code that permits us to extract
 
 ### Exchanged messages/data:		
 
-   1. The **inputs** for my project will be from reliable sources such as the INS website (Institut Nationale de Statistique), and CBT (Central Bank of    Tunisia)... 
+   1. The **inputs** for my project will be from reliable sources such as the INS website (Institut Nationale de Statistique), and CBT (Central Bank of    Tunisia), and Donnees Mondiales
 
    2. I will use their URL(s) in order to send requests to access their contents. 
 
-   3. The data I will extract will be GDP (Gross Domestic Product), Unemployment rate, and Private sector enterprises... They will be saved in a pandas dataframe/files 
+   3. The data I will extract will be for instance GDP (Gross Domestic Product), inflation rate, Unemployment rate, and Private sector enterprises. The data will be in different forms: tables/images... Then They will be saved in a pandas dataframe/files 
 
    4. These data will be then manipulated to get fruitful **outputs**: graphs visualization, and economic analysis. 
 
@@ -71,7 +71,9 @@ During my project, I will be developing a Python code that permits us to extract
 
      * BCT (Central Bank of Tunisia) website for PIB 
      
-     * INS (Institut Nationale de Statistique) website: Private sector enterprises, and for the unemployment rate 
+     * INS (Institut Nationale de Statistique) website for : Private sector enterprises, and the unemployment rate 
+     
+     * Donnees Mondiales website for Inflation rate 
 
    Those are examples of the websites that contain the data I will need to extract 
 
@@ -107,7 +109,7 @@ I did choose to work with these tools as I am used to working with some of them 
 
 ### The development phases: 
 
- 1. **Idealization and planning**: All the parts mentioned above summarize this phase. During this period, I selected the project I will work on, the topic I will analyze, the tools I will use, and the functional flow I will go through.
+ 1. **Idealization and planning**: All the parts mentioned above summarize this phase. During this period, I selected the project I will work on, the topic I will analyze, the tools I will use, and the functional flow I will go through. The extraction will include data from tables/images...
 
  2. **Web scraping code development**: During this phase, I develop Python code that uses libraries to read the websites’ content, and extract data. The data will be saved for example in the pandas dataframe for future use
 
