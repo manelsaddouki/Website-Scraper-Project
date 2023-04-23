@@ -121,7 +121,7 @@ This code can be used for academic researchers who work on socio-economic-relate
 
 ## V. Executable version of the solution: 
 
-The first versions of my code solution is attached to this repository! 
+The first versions of my code solution are attached to this repository! 
 
 		
  							
