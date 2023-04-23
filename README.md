@@ -69,9 +69,9 @@ During my project, I will be developing a Python code that permits us to extract
 
 \-The first step is **websites identification**: 
 
-     * BCT website for PIB 
+     * BCT Central Bank of Tunisia) website for PIB 
      
-     * INS website: Private sector enterprises, and for the unemployment rate 
+     * INS (Institut Nationale de Statistique) website: Private sector enterprises, and for the unemployment rate 
 
    Those are examples of the websites that contain the data I will need to extract 
 
