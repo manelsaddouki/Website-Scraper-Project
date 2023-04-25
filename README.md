@@ -73,7 +73,7 @@ During my project, I will be developing a Python code that permits us to extract
      
      * INS (Institut Nationale de Statistique) website for : Private sector enterprises, and the unemployment rate 
      
-     * Donnees Mondiales website for Inflation rate 
+     * Donnees Mondiales & Zewya websites for Inflation rate 
 
    Those are examples of the websites that contain the data I will need to extract 
 
@@ -111,7 +111,7 @@ I did choose to work with these tools as I am used to working with some of them 
 
  1. **Idealization and planning**: All the parts mentioned above summarize this phase. During this period, I selected the project I will work on, the topic I will analyze, the tools I will use, and the functional flow I will go through. The extraction will include data from tables/images...
 
- 2. **Web scraping code development**: During this phase, I develop Python code that uses libraries to read the websites’ content, and extract data. The data will be saved for example in the pandas dataframe for future use
+ 2. **Web scraping code development**: During this phase, I develop Python code that uses libraries to read the websites’ content, and extract data. The data will be saved for example in the pandas dataframe for future use. The extraction will include data from tables/images/texts... 
 
  3. **Data visualizing code development**: My second part of the code will be to develop plot graphs that can help me in my analysis. These plots are line/ bars/ pie charts.. For instance, PIB and Unemployment indexes will be visualized in a way we can get the necessary insights. 
 
