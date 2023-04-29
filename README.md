@@ -16,34 +16,43 @@ This technique can be very useful as it gives access to a large amount of data i
 
 
 ## II. An overview of the main existing solutions. 
-During this project, I will be using **Python**, which is a coding language that has a lot of libraries that help with web scraping.  Here I provide some examples: : 
+Companies have the option whether to build there own scraper using web scraping libraries or to use the existing Off-the-shelf solutions that can be divided into three main categories: low-to-no code web scrapers/ Could web scrapers/ Browsers extensions web scrapers. 
 
-\- **Requests:** It’s a tool that I can use in order to make HTTP requests, such as Get request which will allow me to get the website content
+### 1. Web scraping libraries: 
+web crawlers are a type of software that automatically targets online websites and pulls their data in a machine-readable format. 
+Those are examples of top open-source web crawler tools (different coding languages): 
+* Java: Apache Nutch, Jspider, Heritrix 
+* Javascript: Node Crawler, Porita
+* Python: Scrapy, Pyspider
 
-\- **BeautifulSoup:** It is a library that can be used to parse the web page, and identify its elements. It can work with HTML or XML
+ let’s focus for example on Python, and the characteristics of its libraries. Here I provide some examples: 
+* ***Scrapy:*** it’s also a library that’s used for web crawling. It can be more powerful than BeautifulSoup if we need a large amount of data (from numerous web pages). Also, it’s able to handle cookies and sessions. 
+* **Requests:*** It’s a tool that I can use in order to make HTTP requests, such as Get request which will allow me to get the website content 
+* ***BeautifulSoup:***  It is a library that can be used to parse the web page, and identify its elements. It can work with HTML or XML
+* ***Selenium:*** It is also another existing solution for scraping. It is useful if we need to interact automatically with a web browser.
+* ***LXML:*** A very fast library used also for HTML or XML parsing
+* ***html5lib:*** it’s a tool that can accurately parse a website, and works even with malformatted HTML 
+* ***Advertools:***  can be used for analyzing and extracting data for marketing purposes (data can be for example from Facebook/Twitter/Google ads)	
 
-\- **Scrapy:** it’s also a library that’s used for web crawling. It can be more powerful than BeautifulSoup if we need a large amount of data (from numerous web pages). Also, it’s able to handle cookies and sessions. 
+***Advantages & limits:***
+The main advantages of web scraping libraries is that it allows you to customize scrapers based on your particular needs. Also it can be cheaper than pre-build tools.
 
-\- **Selenium:** It is also another existing solution for scraping. It is useful if we need to interact automatically with a web browser.
-lxml: A very fast library used also for HTML or XML parsing
+The limits that they may have is that they require their users to have some advanced IT skills (etc knowledge of HTML structures, elements, and the use of libraries such as Python). Plus, it’s more time consuming and require more effort.
 
-\- **html5lib:** it’s a tool that can accurately parse a website, and works even with malformatted HTML 
+### 2. Off-the-shelf web scrapers:
+* ***Low-to-no code web scrapers:*** we can note as an example ScrapingBee and doccparser => they can enable users to extract data from websites without writing any code. 
+* ***Could web scrapers:*** like Zyte, Scraperapi, and AcrapingANT
+* ***Browsers extensions web scrapers:*** such an example there are Parsers and Data Miner
 
-\- **Advertools:**  can be used for analyzing and extracting data for marketing purposes (data can be for example from facebook/Twitter/Google ads)
+***Advantages & limits:***
+Those pre-build tools have multiple advantages as they don’t require IT skills and they user-freindly. Also, the code can be automatically updated to make sure that the data is constantly extracted. 
+Yet, they still have some limits. We can mention that those tools are generally more expensive. Also they are less flexible as the provide standard format. 
 
-Those are the main solutions that I can use while coding with Python. It’s important to note here that there are other options that users with no IT background can use such as the services Webose.io or Parsehub, and browser extensions like Scraper or Data Miner. 
-
-### Advantages & limits: 
-
-The existing solutions mentioned above have a lot of **advantages** that we can mention. 
-
-These tools are time effective as it allows us to collect a large amount of data in a short period of time. Being able to implement such a technique can help you save time for your research phase. Also, it makes you gain a competitive advantage as today’s world is indeed about data, the more you collect, the more powerful you are.
-
-Web scraping programs or services are also not that hard to use and generally user-friendly, one can always choose the method/tool that matches his skills. They can be adapted to one’s needs and freely scaled. 
-
-Despite all that, web scrapers has also some **limitations**. For example, browser services and extensions have standard forms which cannot meet specific users’ needs. On the other hand, coding languages cannot differentiate between relevant and non-relevant data, it’s the users’ task to pay attention to the quality of the data to be extracted. Users need also to put extra effort into highly dynamic websites which can sometimes lead to un-updated or inaccurate data extraction.
-
-Last but not least, it’s important to mention the problem related to websites that do not guarantee permission for web scraping. The concern of copyrights should always be taken into consideration. That’s why one has to get the website’s permission or work only with public data.
+=> All those options can be used by companies for different department and different applications, we can mention: 
+Security: it can be for vulnerability scanning (scan the ones present in a certain website) or to gather information about potential threats (collect IP addresses/ online profiles etc of cybercriminals..)
+Data analytics & Data science: like training predictive models (collect large volume of data to train models)
+Marketing and sales: extract competitors’ prices and customers behavior to improve their performance.
+Finance & Banking: collect data about a certain business to calculate its credit risk score 
 		 	 	 		
 ## III. A Design for the proposed solution:
 
