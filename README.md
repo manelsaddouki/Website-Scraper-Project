@@ -129,7 +129,7 @@ I did choose to work with these tools as I am used to working with some of them 
 
  4. **Data Analysis**: During this part, a clear analysis will be done based on the data and graphs we presented. This step will permit us to present an economic report about our country. 
 
-! [Timeline] (https://github.com/manelsaddouki/Project_Security/blob/main/Gantt%20Chart%20(1).png)
+![timeline] (https://github.com/manelsaddouki/Project_Security/blob/main/Gantt%20Chart%20(1).png)
 
 ## V. Executable version of the solution: 
 
