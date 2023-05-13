@@ -104,7 +104,7 @@ This project is based on a combination of inputs (various data from various sour
 
 ### **Sequence Diagram:**
 
-![timeline](https://github.com/manelsaddouki/Project_Security/blob/main/Gantt%20Chart%20(1).png)
+![UML Diagram]([https://github.com/manelsaddouki/Project_Security/blob/main/Gantt%20Chart%20(1).png](https://github.com/manelsaddouki/Project_Security/blob/main/Copy%20of%20sequence%20diagram%20.drawio.png))
 
 ## IV. The tools and the development phases. 
  							
