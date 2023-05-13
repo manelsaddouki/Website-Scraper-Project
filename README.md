@@ -129,12 +129,13 @@ I did choose to work with these tools as I am used to working with some of them 
 
  4. **Data Analysis**: During this part, a clear analysis will be done based on the data and graphs we presented. This step will permit us to present an economic report about our country. 
 
-This code can be used for academic researchers who work on socio-economic-related topics. It also serves non-government organizations such as OECD for policy recommendations. 
+! [Timeline] (Gantt Chart (1).png)
 
 ## V. Executable version of the solution: 
 
 The first versions of my code solution are attached to this repository! 
 
+This code can be used for academic researchers who work on socio-economic-related topics. It also serves non-government organizations such as OECD for policy recommendations. 
 		
  							
 				
