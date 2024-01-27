@@ -1,4 +1,4 @@
-# Website Scraper Project (Manel Saddouki) 
+# Website Scraper Project
 
 ## I. Explanation of the main concepts of the Web Scraper: main components, functional flow... 
  							
